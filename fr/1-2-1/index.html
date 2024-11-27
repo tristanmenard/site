@@ -145,7 +145,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20241127171817">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20241127192205">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -421,6 +421,19 @@ data-event-label="high"
   
 
   
+<div class="row indicator-progress">
+    <div class="col-sm-2 progress-status-heading">
+        
+    </div>
+    <div class="col-sm-10">
+        
+    
+    
+
+
+    </div>
+</div>
+
 
   
 
@@ -450,7 +463,7 @@ data-event-label="high"
   data-graphtargetlines="null"
   data-graphseriesbreaks="null"
   data-indicatordownloads="null"
-  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Année&quot;},{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Groupe&quot;},{&quot;name&quot;:&quot;PROGRESS&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;0.0&quot;,&quot;0.99&quot;,&quot;1.03&quot;,&quot;1.01&quot;,&quot;&quot;]},&quot;title&quot;:&quot;PROGRESS&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
+  data-dataschema="{&quot;fields&quot;:[{&quot;name&quot;:&quot;Year&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Année&quot;},{&quot;name&quot;:&quot;Group&quot;,&quot;type&quot;:&quot;string&quot;,&quot;constraints&quot;:{&quot;enum&quot;:[&quot;A&quot;,&quot;B&quot;,&quot;&quot;]},&quot;title&quot;:&quot;Groupe&quot;},{&quot;name&quot;:&quot;Progress&quot;,&quot;type&quot;:&quot;string&quot;,&quot;title&quot;:&quot;Progress&quot;},{&quot;name&quot;:&quot;Value&quot;,&quot;type&quot;:&quot;integer&quot;,&quot;title&quot;:&quot;Value&quot;}]}"
   data-compositebreakdownlabel=""
   data-precision="[]"
   data-proxy=""
@@ -485,15 +498,83 @@ data-event-label="high"
   <div id="datatables">
 
     
+    <a role="button" href="https://tristanmenard.github.io/data/fr/headline/1-2-1.csv" class="btn btn-primary btn-download" download="indicator_1-2-1.csv" tabindex="0" role="button">Télécharger Headline CSV</a>
+    
     <a role="button" href="https://tristanmenard.github.io/data/fr/data/1-2-1.csv" class="btn btn-primary btn-download" download='indicator_1-2-1.csv' tabindex='0' role='button'>Télécharger Source CSV</a>
 
     <p class="no-js-disaggregation-hint">Télécharger le CSV source pour les désagrégations</p>
 
     
-    <h3>Aucune donnée principale disponible</h3>
+    <h3>Données d'en-tête</h3>
+    <table class="table-responsive table table-hover dataTable no-footer" role="grid">
+      <caption>Proportion de la population vivant au-dessous du seuil national de pauvreté, par sexe et âge</caption>
+      <thead>
+        
+        
+        <th scope="col">Year</th>
+        
+        
+        
+        <th scope="col">Value</th>
+        
+        
+        
+        <th scope="col" class="table-value">Progress</th>
+        
+        
+      </thead>
+      <tbody>
+        
+        <tr>
+          
+          
+          <td>2015</td>
+          
+          
+          
+          <td>1</td>
+          
+          
+          
+          <td class="table-value">0.0</td>
+          
+          
+        </tr>
+        
+        <tr>
+          
+          
+          <td>2016</td>
+          
+          
+          
+          <td>1</td>
+          
+          
+          
+          <td class="table-value">1.01</td>
+          
+          
+        </tr>
+        
+      </tbody>
+    </table>
     
   </div>
 
+  
+  <div id="datatableFooter">
+    
+    
+    <p>Zone géographique: Canada</p>
+    
+    
+    <p>Unité de mesure: </p>
+    
+    
+    <p>note de bas de page: </p>
+    
+  </div>
   
 
 </div>
@@ -1448,12 +1529,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Chercher';</script>
 
-<script src='/site/assets/js/sdg.js?v=20241127171817'></script>
+<script src='/site/assets/js/sdg.js?v=20241127192205'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20241127171817"></script><script>
+    <script src="/site/assets/js/custom.js?v=20241127192205"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
