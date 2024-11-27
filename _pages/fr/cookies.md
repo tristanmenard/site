@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Cookies and privacy
-permalink: /es/about/cookies-and-privacy/
-language: es
+permalink: /fr/about/cookies-and-privacy/
+language: fr
 ---
 
 Translation needed.
