@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20241203212952">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20241203213337">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -1246,7 +1246,7 @@ data-event-label="high"
 
     
       try {
-        var currentValue = normalizeCurrentValue('progress_status', {"status_heading":"","status_help":"","status_types":[]});
+        var currentValue = normalizeCurrentValue('progress_status', {"status_heading":"status.progress_header","status_help":"status.progress_help","status_types":[{"value":"not_available","label":"status.progress_not_available","alt":"status.progress_not_available"},{"value":"deterioration","label":"status.deterioration","image":"assets/img/progress/red-gauge.png","alt":"status.deterioration"},{"value":"limited_progress","label":"status.limited_progress","image":"assets/img/progress/orange-gauge.png","alt":"status.limited_progress"},{"value":"moderate_progress","label":"status.moderate_progress","image":"assets/img/progress/yellow-gauge.png","alt":"status.moderate_progress"},{"value":"substantial_progress","label":"status.substantial_progress","image":"assets/img/progress/green-gauge.png","alt":"status.substantial_progress"},{"value":"target_achieved","label":"status.target_achieved","image":"assets/img/progress/target-achieved-gauge.png","alt":"status.target_achieved"}]});
         var propertyEditor = editor.getEditor('root.progress_status');
         propertyEditor.setValue(null);
         propertyEditor.setValue(currentValue);
@@ -1566,12 +1566,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Chercher';</script>
 
-<script src='/site/assets/js/sdg.js?v=20241203212952'></script>
+<script src='/site/assets/js/sdg.js?v=20241203213337'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20241203212952"></script><script>
+    <script src="/site/assets/js/custom.js?v=20241203213337"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
