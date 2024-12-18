@@ -695,35 +695,115 @@
         
         {
           "id": "6-1-1",
-          "title": "Proportion de la population utilisant des services d’alimentation en eau potable gérés en toute sécurité",
+          "title": "Alignement des scores - Indicateur qualitatif ayant un CAGR de 1,5 %",
           "description": "",
           "keywords": "",
           "href": "/site/fr/6-1-1/",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "6-1-2",
+          "title": "Alignement des scores - Indicateur qualitatif ayant un CAGR de 0,5 %",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/6-1-2/",
+          "status": "complete"
+        },
+        {
+          "id": "6-1-3",
+          "title": "Alignement des scores - Indicateur qualitatif ayant un CAGR de 0 %",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/6-1-3/",
+          "status": "complete"
+        },
+        {
+          "id": "6-1-4",
+          "title": "Alignement des scores - Indicateur qualitatif ayant un CAGR de -1 %",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/6-1-4/",
+          "status": "complete"
         },
         {
           "id": "6-2-1",
-          "title": "Proportion de la population utilisant a) des services d’assainissement gérés en toute sécurité et b) notamment des équipements pour se laver les mains avec de l’eau et du savon",
+          "title": "Alignement des scores - Indicateur qualitatif approchant une limite et ayant CAGR/coeff = 1,5 %",
           "description": "",
           "keywords": "",
           "href": "/site/fr/6-2-1/",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "6-2-2",
+          "title": "Alignement des scores - Indicateur qualitatif approchant une limite et ayant CAGR/coeff = 0,5 %",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/6-2-2/",
+          "status": "complete"
+        },
+        {
+          "id": "6-2-3",
+          "title": "Alignement des scores - Indicateur qualitatif approchant une limite et ayant CAGR/coeff = 0 %",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/6-2-3/",
+          "status": "complete"
+        },
+        {
+          "id": "6-2-4",
+          "title": "Alignement des scores - Indicateur qualitatif approchant une limite et ayant CAGR/coeff = -1 %",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/6-2-4/",
+          "status": "complete"
         },
         {
           "id": "6-3-1",
-          "title": "Proportion des eaux usées d’origine ménagère et industrielle traitées sans danger",
+          "title": "Plusieurs désagrégations qui démontrent des progrès limités et complètent aucune cible",
           "description": "",
           "keywords": "",
           "href": "/site/fr/6-3-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "6-3-2",
-          "title": "Proportion des masses d’eau dont la qualité de l’eau ambiante est bonne",
+          "title": "Plusieurs désagrégations qui démontrent des progrès limités et complètent certaines cibles",
           "description": "",
           "keywords": "",
           "href": "/site/fr/6-3-2/",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "6-3-3",
+          "title": "Plusieurs désagrégations qui démontrent des progrès limités et complètent chaque cible",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/6-3-3/",
+          "status": "complete"
+        },
+        {
+          "id": "6-3-4",
+          "title": "Plusieurs désagrégations qui démontrent des progrès substantiels et complètent aucune cible",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/6-3-4/",
+          "status": "complete"
+        },
+        {
+          "id": "6-3-5",
+          "title": "Plusieurs désagrégations qui démontrent des progrès substantiels et complètent certaines cibles",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/6-3-5/",
+          "status": "complete"
+        },
+        {
+          "id": "6-3-6",
+          "title": "Plusieurs désagrégations qui démontrent des progrès substantiels et complètent chaque cible",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/6-3-6/",
+          "status": "complete"
         },
         {
           "id": "6-4-1",
