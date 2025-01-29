@@ -215,9 +215,9 @@ observation_attributes:
   - field: COMMENT_OBS
     label: ''
   - field: COMMENT_OBS_0
-    label: ''
+    label: '*'
   - field: COMMENT_OBS_1
-    label: ''
+    label: 'e'
 progress_status:
   status_heading: status.progress_header
   status_help: status.progress_help
