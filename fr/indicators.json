@@ -862,14 +862,6 @@
           "status": "complete"
         },
         {
-          "id": "7-1-2",
-          "title": "Proportion de la population utilisant principalement des carburants et technologies propres",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/7-1-2/",
-          "status": "notstarted"
-        },
-        {
           "id": "7-2-1",
           "title": "Part de l’énergie renouvelable dans la consommation finale d’énergie",
           "description": "",
@@ -883,23 +875,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/7-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-a-1",
-          "title": "Flux financiers internationaux à destination des pays en développement à l’appui de la recherche-développement dans le domaine des énergies propres et de la production d’énergie renouvelable, notamment au moyen de systèmes hybrides",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/7-a-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "7-b-1",
-          "title": "Puissance installée du parc d’énergie renouvelable dans les pays en développement (en watts par habitant) (identique à l’indicateur proposé en remplacement de l’indicateur 12.a.1 ci-dessous)",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/7-b-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
