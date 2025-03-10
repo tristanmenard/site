@@ -167,7 +167,7 @@
         },
         {
           "id": "2-2-4",
-          "title": "Prévalence de l’anémie chez les femmes âgées de 15 à 49 ans, selon l’état de grossesse (pourcentage)",
+          "title": "global_indicators.2-2-4-title",
           "description": "",
           "keywords": "",
           "href": "/site/fr/2-2-4/",
@@ -235,7 +235,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/4-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-1-2",
@@ -243,7 +243,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/4-1-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-1",
@@ -251,7 +251,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/4-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-2-2",
@@ -259,7 +259,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/4-2-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "4-3-1",
@@ -267,7 +267,15 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/4-3-1/",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-3-2",
+          "title": "global_indicators.4-3-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/4-3-2/",
+          "status": "complete"
         },
         {
           "id": "4-4-1",
@@ -275,7 +283,15 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/4-4-1/",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-4-2",
+          "title": "global_indicators.4-4-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/4-4-2/",
+          "status": "complete"
         },
         {
           "id": "4-5-1",
@@ -283,7 +299,15 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/4-5-1/",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-5-2",
+          "title": "global_indicators.4-5-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/4-5-2/",
+          "status": "complete"
         },
         {
           "id": "4-6-1",
@@ -291,7 +315,15 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/4-6-1/",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-6-2",
+          "title": "global_indicators.4-6-2-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/4-6-2/",
+          "status": "complete"
         },
         {
           "id": "4-7-1",
@@ -299,7 +331,15 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/4-7-1/",
-          "status": "notstarted"
+          "status": "complete"
+        },
+        {
+          "id": "4-8-1",
+          "title": "global_indicators.4-8-1-title",
+          "description": "",
+          "keywords": "",
+          "href": "/site/fr/4-8-1/",
+          "status": "complete"
         },
         {
           "id": "4-a-1",
@@ -339,7 +379,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/5-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-2-1",
@@ -347,15 +387,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/5-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-2-2",
-          "title": "Proportion de femmes et de filles âgées de 15 ans ou plus victimes de violences sexuelles infligées au cours des 12 mois précédents par une personne autre que leur partenaire intime, par âge et lieu des faits",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/5-2-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-3-1",
@@ -363,15 +395,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/5-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-3-2",
-          "title": "Proportion de filles et de femmes âgées de 15 à 49 ans ayant subi une mutilation ou une ablation génitale, par âge",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/5-3-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-4-1",
@@ -379,71 +403,7 @@
           "description": "",
           "keywords": "",
           "href": "/site/fr/5-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-5-1",
-          "title": "Proportion de sièges occupés par des femmes dans a) les parlements nationaux et b) les administrations locales",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/5-5-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-5-2",
-          "title": "Proportion de femmes occupant des postes de direction",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/5-5-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-6-1",
-          "title": "Proportion de femmes âgées de 15 à 49 ans prenant, en connaissance de cause, leurs propres décisions concernant leurs relations sexuelles, l’utilisation de contraceptifs et les soins de santé procréative",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/5-6-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-6-2",
-          "title": "Nombre de pays dotés de textes législatifs et réglementaires garantissant aux femmes et aux hommes de 15 ans ou plus un accès équitable et sans restriction aux soins de santé sexuelle et procréative, ainsi qu’à des informations et une éducation dans ce domaine",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/5-6-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-a-1",
-          "title": "a) Proportion de la population agricole totale ayant des droits de propriété ou des droits garantis sur des terres agricoles, par sexe ; b) proportion de femmes parmi les titulaires de droits de propriété ou de droits garantis sur des terrains agricoles, par type de droit",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/5-a-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-a-2",
-          "title": "Proportion de pays dotés d’un cadre juridique (y compris le droit coutumier) garantissant aux femmes les mêmes droits que les hommes en matière d’accès à la propriété ou au contrôle des terres",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/5-a-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-b-1",
-          "title": "Proportion de la population possédant un téléphone portable, par sexe",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/5-b-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "5-c-1",
-          "title": "Proportion de pays dotés de systèmes permettant de suivre et de rendre public le montant des ressources allouées à l’égalité des sexes et à l’autonomisation des femmes",
-          "description": "",
-          "keywords": "",
-          "href": "/site/fr/5-c-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
