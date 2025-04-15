@@ -154,7 +154,7 @@ map_layers:
     min_zoom: 2
     max_zoom: 6
 map_options:
-  disaggregation_controls: false
+  disaggregation_controls: true
   minZoom: 2
   maxZoom: 6
   tileURL: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
@@ -168,13 +168,13 @@ map_options:
     weight: 1
     opacity: 1
     fillOpacity: 0.7
-    color: '#888888'
+    color: '#deebf7'
     dashArray: ''
   styleHighlighted:
     weight: 1
     opacity: 1
     fillOpacity: 0.7
-    color: '#111111'
+    color: '#3182bd'
     dashArray: ''
   styleStatic:
     weight: 2
