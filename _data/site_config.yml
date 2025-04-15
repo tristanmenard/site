@@ -148,16 +148,20 @@ languages:
   - fr
 languages_public: []
 logos: []
-map_layers: []
+map_layers:
+  - subfolder: regions
+    label: Regions
+    min_zoom: 2
+    max_zoom: 6
 map_options:
   disaggregation_controls: false
-  minZoom: 5
-  maxZoom: 10
-  tileURL: ''
+  minZoom: 2
+  maxZoom: 6
+  tileURL: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
   tileOptions:
     id: ''
     accessToken: ''
-    attribution: ''
+    attribution: 'OpenStreetMap'
   colorRange: chroma.brewer.BuGn
   noValueColor: '#f0f0f0'
   styleNormal:
@@ -177,7 +181,7 @@ map_options:
     opacity: 1
     fillOpacity: 0
     color: '#172d44'
-    dashArray: ''
+    dashArray: '5,5'
 menu:
   - path: /
     translation_key: general.home
