@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20250415201400">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20250516135129">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -756,7 +756,7 @@ data-event-label="high"
         },
         "graph_color_number": {
             "title": "Graph color number",
-            "type": "integer",
+            "type": ["integer", "string"],
             "description": "This setting can be used to limit the length of the list of colors selected via graph_color_set."
         },
         "graph_title_from_series": {
@@ -1009,12 +1009,12 @@ data-event-label="high"
                         "description": "The label to use in the 'Download GeoJSON' button for this layer."
                     },
                     "min_zoom": {
-                        "type": "integer",
+                        "type": ["integer", "string"],
                         "title": "Minimum zoom",
                         "description": "This layer will only be visible when the map is zoomed to at least this number."
                     },
                     "max_zoom": {
-                        "type": "integer",
+                        "type": ["integer", "string"],
                         "title": "Maximum zoom",
                         "description": "The layer will not be visible when the map is zoomed beyond this number."
                     },
@@ -1038,13 +1038,13 @@ data-event-label="high"
                 },
                 "minZoom": {
                     "title": "Minimum zoom",
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "description": "The lowest amount of 'zoom' possible for users.",
                     "default": 5
                 },
                 "maxZoom": {
                     "title": "Maximum zoom",
-                    "type": "integer",
+                    "type": ["integer", "string"],
                     "description": "The highest amount of 'zoom' possible for users.",
                     "default": 10
                 },
@@ -1520,7 +1520,7 @@ data-event-label="high"
                         "description": "Field to boost ('title', 'content', etc.)"
                     },
                     "boost": {
-                        "type": "integer",
+                        "type": ["integer", "string"],
                         "minLength": 1,
                         "title": "Boost",
                         "description": "Higher boost means higher search ranking."
@@ -2926,12 +2926,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20250415201400'></script>
+<script src='/site/assets/js/sdg.js?v=20250516135129'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20250415201400"></script><script>
+    <script src="/site/assets/js/custom.js?v=20250516135129"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
