@@ -2,7 +2,7 @@
 layout: page
 title: Tableau de bord
 language: fr
-permalink: /fr/tableau-de-bord/
+permalink: /fr/dashboard/
 ---
 <div class='tableauPlaceholder' id='viz1749826777196' style='position: relative'>
     <noscript>
