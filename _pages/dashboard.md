@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dashboard
-# language: en
+language: en
 permalink: /dashboard/
 ---
 <div class='tableauPlaceholder' id='viz1749826777196' style='position: relative'>
